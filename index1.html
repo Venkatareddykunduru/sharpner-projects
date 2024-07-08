@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop Form</title>
+    <title>Document</title>
 </head>
 <body>
-    <h1>Veg Shop</h1>
-    <form id="shopForm" onsubmit="handle(event)">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
-        
-        <label for="price">Price:</label>
-        <input type="number" id="price" name="price" step="1" required><br><br>
-        
-        <label for="quantity">Quantity:</label>
-        <input type="number" id="quantity" name="quantity" required><br><br>
-        
-        <button type="submit">Add to Shop</button>
+    <h1>venkatareddy</h1>
+
+    <form onsubmit="handle(event)">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name"><br><br>
+
+        <label for="phone">Phone</label>
+        <input type="text" name="phone" id="phone"><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+
+        <button type="submit">Add User</button>
     </form>
-    <ul id="listitems"></ul>
 
-
+    <ul id="userlist"></ul>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
     <script src="index1.js"></script>
 </body>
